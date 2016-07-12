@@ -1,0 +1,7 @@
+#!/usr/bin/python
+#-​*- encoding: utf-8 -*​-
+def greet(name):
+    print(("Hello, {0}!".format(name)))
+print("What is your name?")
+name = input()
+greet(name)
